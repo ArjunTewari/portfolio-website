@@ -1,3 +1,13 @@
+/* Style for the "Details below" text */
+.details-below {
+  position: absolute;
+  top: 200%; /* Distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  text-align: center; /* Ensure text is centered */
+  width: 100%; /* Full width for better centering */
+}
+
 .clock-section {
   text-align: center;
   padding: 20px;
